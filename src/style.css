@@ -1,0 +1,231 @@
+.map {
+    width: 1000px;
+}
+
+.map--labels_above .Regions polygon,
+.map--labels_above .Regions path {
+    fill-opacity: 0;
+}
+
+.map--labels_above .Regions polygon:hover,
+.map--labels_above .Regions path:hover {
+    fill: #108f16;
+    fill-opacity: 1;
+}
+
+.map--labels_below .Regions polygon,
+.map--labels_below .Regions path {
+    fill-opacity: 0;
+}
+
+.map--labels_below .Regions polygon:hover,
+.map--labels_below .Regions path:hover {
+    fill-opacity: 1;
+}
+
+.map--labels_above .Regions polygon,
+.map--labels_above .Regions path {
+    cursor: pointer;
+}
+
+
+/* Modal Content */
+
+
+/* The Close Button */
+
+.region_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.region_modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.region_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.region_close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.region_close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+.cls-1,
+.cls-5 {
+    fill: none;
+}
+
+.cls-2 {
+    fill: #accddc;
+    /* colore mare */
+}
+
+.cls-4 {
+    fill: #e4e6e4;
+    /* colore altri paesi*/
+}
+
+.cls-3 {
+    clip-path: url(#clip-path);
+}
+
+.cls-5,
+.cls-7 {
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 0.5px;
+}
+
+.cls-6 {
+    fill: #707570;
+}
+
+.cls-7 {
+    fill: #108f16;
+}
+
+.cls-8 {
+    font-size: 14px;
+    fill: #6591a2;
+}
+
+.cls-16,
+.cls-31,
+.cls-8 {
+    font-family: ProximaNova-Regular, ProximaNova Regular;
+}
+
+.cls-9 {
+    letter-spacing: -0.01em;
+}
+
+.cls-10 {
+    letter-spacing: 0em;
+}
+
+.cls-11 {
+    letter-spacing: 0em;
+}
+
+.cls-12 {
+    letter-spacing: 0.01em;
+}
+
+.cls-13 {
+    letter-spacing: -0.04em;
+}
+
+.cls-14 {
+    letter-spacing: -0.01em;
+}
+
+.cls-15 {
+    letter-spacing: 0em;
+}
+
+.cls-16,
+.cls-31 {
+    font-size: 12px;
+}
+
+.cls-16,
+.cls-20,
+.cls-31 {
+    fill: #fff;
+}
+
+.cls-17 {
+    letter-spacing: -0.02em;
+}
+
+.cls-18 {
+    letter-spacing: -0.01em;
+}
+
+.cls-19 {
+    letter-spacing: -0.01em;
+}
+
+.cls-21 {
+    letter-spacing: 0.01em;
+}
+
+.cls-22 {
+    letter-spacing: -0.03em;
+}
+
+.cls-23 {
+    letter-spacing: -0.01em;
+}
+
+.cls-24 {
+    letter-spacing: 0em;
+}
+
+.cls-25 {
+    letter-spacing: -0.05em;
+}
+
+.cls-26 {
+    letter-spacing: 0em;
+}
+
+.cls-27 {
+    letter-spacing: 0em;
+}
+
+.cls-28 {
+    letter-spacing: -0.01em;
+}
+
+.cls-29 {
+    letter-spacing: -0.03em;
+}
+
+.cls-30 {
+    letter-spacing: -0.01em;
+}
+
+.cls-31 {
+    letter-spacing: -0.02em;
+}
+
+.cls-32 {
+    letter-spacing: 0em;
+}
+
+.cls-33 {
+    letter-spacing: -0.02em;
+}
+
+.cls-34 {
+    letter-spacing: 0em;
+}
